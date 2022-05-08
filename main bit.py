@@ -1,15 +1,6 @@
 
 # ****** MAIN ROUTINE STARTS HERE *********
 
-def statement_generator(text, decoration):
-    
-    ends = decoration * 6
-    
-    statement = " {} {} {} ".format(ends, text, ends)
-    
-    print()
-    print(statement)
-    print()
 
 
 def user_choice():
@@ -68,7 +59,6 @@ def num_check(question, low):
 
 
 
-statement_generator("bit calcultor for Integers, Text & Images")
 
           
 keep_going = ""
